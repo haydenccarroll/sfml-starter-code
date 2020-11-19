@@ -10,7 +10,7 @@ set(EXECUTABLE_NAME sfmlProject)
 find_package(SFML 2.0 REQUIRED system window graphics network audio )
 
 
-file(GLOB SOURCES *.cpp) #stores all .cpp files in SOURCES
+file(GLOB SOURCES src/*.cpp) #stores all .cpp files in SOURCES
 
 add_executable (${EXECUTABLE_NAME} ${SOURCES})
 
