@@ -24,7 +24,7 @@
 int main()
 {
     // create the window
-    sf::RenderWindow window(sf::VideoMode(600, 800), "{PROJECT_NAME}");
+    sf::RenderWindow window(sf::VideoMode(800, 600), "sfmlProject");
     Game game(window);
     game.run();
 }
